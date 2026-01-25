@@ -10,5 +10,8 @@ wheels/
 .venv
 
 # Datasets
-datasets/instagram_usage_lifestyle.csv
+data/raw/instagram_usage_lifestyle.csv
+
+# Logs and reports
+logs/crimson_nebula.log
 ydata.html

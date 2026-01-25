@@ -1,0 +1,903 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "ce16e724769124448f1eca7e975ea307",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "4314f2060a145d78625eaae730e4a2aa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "6f991090871f3cdf8db14202da5d277d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "eff7d5dba32b4da32d9a67a519434d3f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='fe16a8ad-9ed1-f890-bf4c-87bd5df9b3e6'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;user_id&#92;&quot;:336337,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:43,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Rural&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Low&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Student&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;Some college&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Single&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:1.3,&#92;&quot;sleep_hours_per_night&#92;&quot;:6.2,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;Former&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Several times a week&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:31,&#92;&quot;self_reported_happiness&#92;&quot;:10,&#92;&quot;body_mass_index&#92;&quot;:31.1,&#92;&quot;blood_pressure_systolic&#92;&quot;:109,&#92;&quot;blood_pressure_diastolic&#92;&quot;:78,&#92;&quot;daily_steps_count&#92;&quot;:7938,&#92;&quot;weekly_work_hours&#92;&quot;:26.6,&#92;&quot;hobbies_count&#92;&quot;:3,&#92;&quot;social_events_per_month&#92;&quot;:2,&#92;&quot;books_read_per_year&#92;&quot;:10,&#92;&quot;volunteer_hours_per_month&#92;&quot;:4.3,&#92;&quot;travel_frequency_per_year&#92;&quot;:5,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:201.0,&#92;&quot;sessions_per_day&#92;&quot;:9,&#92;&quot;posts_created_per_week&#92;&quot;:6,&#92;&quot;reels_watched_per_day&#92;&quot;:176,&#92;&quot;stories_viewed_per_day&#92;&quot;:103,&#92;&quot;likes_given_per_day&#92;&quot;:133,&#92;&quot;comments_written_per_day&#92;&quot;:37,&#92;&quot;dms_sent_per_week&#92;&quot;:22,&#92;&quot;dms_received_per_week&#92;&quot;:26,&#92;&quot;ads_viewed_per_day&#92;&quot;:20,&#92;&quot;ads_clicked_per_day&#92;&quot;:7,&#92;&quot;time_on_feed_per_day&#92;&quot;:105,&#92;&quot;time_on_explore_per_day&#92;&quot;:25,&#92;&quot;time_on_messages_per_day&#92;&quot;:47,&#92;&quot;time_on_reels_per_day&#92;&quot;:56,&#92;&quot;followers_count&#92;&quot;:292,&#92;&quot;following_count&#92;&quot;:478,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.64,&#92;&quot;account_creation_year&#92;&quot;:2011,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-02-11&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:22.3},{&#92;&quot;user_id&#92;&quot;:253653,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:17,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Urban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Low&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Student&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;Some college&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Single&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:18.1,&#92;&quot;sleep_hours_per_night&#92;&quot;:8.0,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Never&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:25,&#92;&quot;self_reported_happiness&#92;&quot;:10,&#92;&quot;body_mass_index&#92;&quot;:18.2,&#92;&quot;blood_pressure_systolic&#92;&quot;:100,&#92;&quot;blood_pressure_diastolic&#92;&quot;:62,&#92;&quot;daily_steps_count&#92;&quot;:7995,&#92;&quot;weekly_work_hours&#92;&quot;:28.3,&#92;&quot;hobbies_count&#92;&quot;:2,&#92;&quot;social_events_per_month&#92;&quot;:4,&#92;&quot;books_read_per_year&#92;&quot;:14,&#92;&quot;volunteer_hours_per_month&#92;&quot;:6.4,&#92;&quot;travel_frequency_per_year&#92;&quot;:1,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:222.0,&#92;&quot;sessions_per_day&#92;&quot;:7,&#92;&quot;posts_created_per_week&#92;&quot;:14,&#92;&quot;reels_watched_per_day&#92;&quot;:238,&#92;&quot;stories_viewed_per_day&#92;&quot;:115,&#92;&quot;likes_given_per_day&#92;&quot;:139,&#92;&quot;comments_written_per_day&#92;&quot;:39,&#92;&quot;dms_sent_per_week&#92;&quot;:37,&#92;&quot;dms_received_per_week&#92;&quot;:46,&#92;&quot;ads_viewed_per_day&#92;&quot;:18,&#92;&quot;ads_clicked_per_day&#92;&quot;:6,&#92;&quot;time_on_feed_per_day&#92;&quot;:100,&#92;&quot;time_on_explore_per_day&#92;&quot;:61,&#92;&quot;time_on_messages_per_day&#92;&quot;:32,&#92;&quot;time_on_reels_per_day&#92;&quot;:70,&#92;&quot;followers_count&#92;&quot;:1359,&#92;&quot;following_count&#92;&quot;:1232,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.33,&#92;&quot;account_creation_year&#92;&quot;:2020,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-09-20&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:31.7},{&#92;&quot;user_id&#92;&quot;:1079086,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:52,&#92;&quot;gender&#92;&quot;:&#92;&quot;Female&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United Kingdom&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Urban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Middle&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Full-time employed&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;High school&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Married&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:4.6,&#92;&quot;sleep_hours_per_night&#92;&quot;:7.9,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Rarely&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:36,&#92;&quot;self_reported_happiness&#92;&quot;:10,&#92;&quot;body_mass_index&#92;&quot;:27.9,&#92;&quot;blood_pressure_systolic&#92;&quot;:157,&#92;&quot;blood_pressure_diastolic&#92;&quot;:96,&#92;&quot;daily_steps_count&#92;&quot;:7817,&#92;&quot;weekly_work_hours&#92;&quot;:46.1,&#92;&quot;hobbies_count&#92;&quot;:1,&#92;&quot;social_events_per_month&#92;&quot;:5,&#92;&quot;books_read_per_year&#92;&quot;:11,&#92;&quot;volunteer_hours_per_month&#92;&quot;:1.8,&#92;&quot;travel_frequency_per_year&#92;&quot;:4,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:197.0,&#92;&quot;sessions_per_day&#92;&quot;:11,&#92;&quot;posts_created_per_week&#92;&quot;:1,&#92;&quot;reels_watched_per_day&#92;&quot;:166,&#92;&quot;stories_viewed_per_day&#92;&quot;:118,&#92;&quot;likes_given_per_day&#92;&quot;:143,&#92;&quot;comments_written_per_day&#92;&quot;:38,&#92;&quot;dms_sent_per_week&#92;&quot;:29,&#92;&quot;dms_received_per_week&#92;&quot;:23,&#92;&quot;ads_viewed_per_day&#92;&quot;:25,&#92;&quot;ads_clicked_per_day&#92;&quot;:6,&#92;&quot;time_on_feed_per_day&#92;&quot;:96,&#92;&quot;time_on_explore_per_day&#92;&quot;:53,&#92;&quot;time_on_messages_per_day&#92;&quot;:46,&#92;&quot;time_on_reels_per_day&#92;&quot;:68,&#92;&quot;followers_count&#92;&quot;:214,&#92;&quot;following_count&#92;&quot;:132,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.62,&#92;&quot;account_creation_year&#92;&quot;:2025,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-04-06&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:17.9},{&#92;&quot;user_id&#92;&quot;:1474133,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:24,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Suburban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Middle&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Part-time&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;Other&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;In a relationship&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:7.7,&#92;&quot;sleep_hours_per_night&#92;&quot;:6.1,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Never&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:2,&#92;&quot;self_reported_happiness&#92;&quot;:10,&#92;&quot;body_mass_index&#92;&quot;:22.6,&#92;&quot;blood_pressure_systolic&#92;&quot;:99,&#92;&quot;blood_pressure_diastolic&#92;&quot;:88,&#92;&quot;daily_steps_count&#92;&quot;:8042,&#92;&quot;weekly_work_hours&#92;&quot;:52.5,&#92;&quot;hobbies_count&#92;&quot;:5,&#92;&quot;social_events_per_month&#92;&quot;:2,&#92;&quot;books_read_per_year&#92;&quot;:10,&#92;&quot;volunteer_hours_per_month&#92;&quot;:2.2,&#92;&quot;travel_frequency_per_year&#92;&quot;:0,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:11.0,&#92;&quot;sessions_per_day&#92;&quot;:1,&#92;&quot;posts_created_per_week&#92;&quot;:3,&#92;&quot;reels_watched_per_day&#92;&quot;:127,&#92;&quot;stories_viewed_per_day&#92;&quot;:26,&#92;&quot;likes_given_per_day&#92;&quot;:26,&#92;&quot;comments_written_per_day&#92;&quot;:8,&#92;&quot;dms_sent_per_week&#92;&quot;:12,&#92;&quot;dms_received_per_week&#92;&quot;:8,&#92;&quot;ads_viewed_per_day&#92;&quot;:9,&#92;&quot;ads_clicked_per_day&#92;&quot;:2,&#92;&quot;time_on_feed_per_day&#92;&quot;:5,&#92;&quot;time_on_explore_per_day&#92;&quot;:2,&#92;&quot;time_on_messages_per_day&#92;&quot;:1,&#92;&quot;time_on_reels_per_day&#92;&quot;:4,&#92;&quot;followers_count&#92;&quot;:851,&#92;&quot;following_count&#92;&quot;:594,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.15,&#92;&quot;account_creation_year&#92;&quot;:2024,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-02-18&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:11.0},{&#92;&quot;user_id&#92;&quot;:1296480,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:31,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;South Korea&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Rural&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;High&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Freelancer&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;Bachelor&#92;&#92;u2019s&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Single&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:8.9,&#92;&quot;sleep_hours_per_night&#92;&quot;:7.0,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Never&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:17,&#92;&quot;self_reported_happiness&#92;&quot;:9,&#92;&quot;body_mass_index&#92;&quot;:21.0,&#92;&quot;blood_pressure_systolic&#92;&quot;:141,&#92;&quot;blood_pressure_diastolic&#92;&quot;:82,&#92;&quot;daily_steps_count&#92;&quot;:8047,&#92;&quot;weekly_work_hours&#92;&quot;:31.7,&#92;&quot;hobbies_count&#92;&quot;:1,&#92;&quot;social_events_per_month&#92;&quot;:1,&#92;&quot;books_read_per_year&#92;&quot;:12,&#92;&quot;volunteer_hours_per_month&#92;&quot;:3.6,&#92;&quot;travel_frequency_per_year&#92;&quot;:1,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:247.0,&#92;&quot;sessions_per_day&#92;&quot;:21,&#92;&quot;posts_created_per_week&#92;&quot;:6,&#92;&quot;reels_watched_per_day&#92;&quot;:212,&#92;&quot;stories_viewed_per_day&#92;&quot;:135,&#92;&quot;likes_given_per_day&#92;&quot;:162,&#92;&quot;comments_written_per_day&#92;&quot;:33,&#92;&quot;dms_sent_per_week&#92;&quot;:37,&#92;&quot;dms_received_per_week&#92;&quot;:47,&#92;&quot;ads_viewed_per_day&#92;&quot;:21,&#92;&quot;ads_clicked_per_day&#92;&quot;:4,&#92;&quot;time_on_feed_per_day&#92;&quot;:137,&#92;&quot;time_on_explore_per_day&#92;&quot;:27,&#92;&quot;time_on_messages_per_day&#92;&quot;:55,&#92;&quot;time_on_reels_per_day&#92;&quot;:50,&#92;&quot;followers_count&#92;&quot;:828,&#92;&quot;following_count&#92;&quot;:418,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.69,&#92;&quot;account_creation_year&#92;&quot;:2025,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-07-25&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:11.8},{&#92;&quot;user_id&#92;&quot;:1435874,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:14,&#92;&quot;gender&#92;&quot;:&#92;&quot;Female&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Suburban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;High&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Full-time employed&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;High school&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Single&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:4.0,&#92;&quot;sleep_hours_per_night&#92;&quot;:8.6,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Good&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Rarely&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:2,&#92;&quot;self_reported_happiness&#92;&quot;:7,&#92;&quot;body_mass_index&#92;&quot;:27.3,&#92;&quot;blood_pressure_systolic&#92;&quot;:121,&#92;&quot;blood_pressure_diastolic&#92;&quot;:64,&#92;&quot;daily_steps_count&#92;&quot;:8063,&#92;&quot;weekly_work_hours&#92;&quot;:49.9,&#92;&quot;hobbies_count&#92;&quot;:4,&#92;&quot;social_events_per_month&#92;&quot;:5,&#92;&quot;books_read_per_year&#92;&quot;:5,&#92;&quot;volunteer_hours_per_month&#92;&quot;:4.1,&#92;&quot;travel_frequency_per_year&#92;&quot;:2,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:80.0,&#92;&quot;sessions_per_day&#92;&quot;:3,&#92;&quot;posts_created_per_week&#92;&quot;:11,&#92;&quot;reels_watched_per_day&#92;&quot;:167,&#92;&quot;stories_viewed_per_day&#92;&quot;:52,&#92;&quot;likes_given_per_day&#92;&quot;:65,&#92;&quot;comments_written_per_day&#92;&quot;:14,&#92;&quot;dms_sent_per_week&#92;&quot;:16,&#92;&quot;dms_received_per_week&#92;&quot;:25,&#92;&quot;ads_viewed_per_day&#92;&quot;:7,&#92;&quot;ads_clicked_per_day&#92;&quot;:1,&#92;&quot;time_on_feed_per_day&#92;&quot;:42,&#92;&quot;time_on_explore_per_day&#92;&quot;:8,&#92;&quot;time_on_messages_per_day&#92;&quot;:16,&#92;&quot;time_on_reels_per_day&#92;&quot;:17,&#92;&quot;followers_count&#92;&quot;:2586,&#92;&quot;following_count&#92;&quot;:1402,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.94,&#92;&quot;account_creation_year&#92;&quot;:2022,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-03-26&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:26.7},{&#92;&quot;user_id&#92;&quot;:1525360,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:22,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Suburban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Middle&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Student&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;High school&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Married&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:0.5,&#92;&quot;sleep_hours_per_night&#92;&quot;:6.3,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Rarely&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:37,&#92;&quot;self_reported_happiness&#92;&quot;:2,&#92;&quot;body_mass_index&#92;&quot;:26.2,&#92;&quot;blood_pressure_systolic&#92;&quot;:106,&#92;&quot;blood_pressure_diastolic&#92;&quot;:79,&#92;&quot;daily_steps_count&#92;&quot;:7919,&#92;&quot;weekly_work_hours&#92;&quot;:50.4,&#92;&quot;hobbies_count&#92;&quot;:2,&#92;&quot;social_events_per_month&#92;&quot;:7,&#92;&quot;books_read_per_year&#92;&quot;:12,&#92;&quot;volunteer_hours_per_month&#92;&quot;:5.3,&#92;&quot;travel_frequency_per_year&#92;&quot;:1,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:385.0,&#92;&quot;sessions_per_day&#92;&quot;:14,&#92;&quot;posts_created_per_week&#92;&quot;:11,&#92;&quot;reels_watched_per_day&#92;&quot;:300,&#92;&quot;stories_viewed_per_day&#92;&quot;:150,&#92;&quot;likes_given_per_day&#92;&quot;:216,&#92;&quot;comments_written_per_day&#92;&quot;:54,&#92;&quot;dms_sent_per_week&#92;&quot;:33,&#92;&quot;dms_received_per_week&#92;&quot;:61,&#92;&quot;ads_viewed_per_day&#92;&quot;:41,&#92;&quot;ads_clicked_per_day&#92;&quot;:14,&#92;&quot;time_on_feed_per_day&#92;&quot;:231,&#92;&quot;time_on_explore_per_day&#92;&quot;:50,&#92;&quot;time_on_messages_per_day&#92;&quot;:68,&#92;&quot;time_on_reels_per_day&#92;&quot;:100,&#92;&quot;followers_count&#92;&quot;:1280,&#92;&quot;following_count&#92;&quot;:1273,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.47,&#92;&quot;account_creation_year&#92;&quot;:2015,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2026-01-04&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:27.5},{&#92;&quot;user_id&#92;&quot;:1112129,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:61,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Urban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Upper-middle&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Full-time employed&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;High school&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Single&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:11.9,&#92;&quot;sleep_hours_per_night&#92;&quot;:6.2,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Very poor&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Rarely&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:14,&#92;&quot;self_reported_happiness&#92;&quot;:4,&#92;&quot;body_mass_index&#92;&quot;:30.2,&#92;&quot;blood_pressure_systolic&#92;&quot;:143,&#92;&quot;blood_pressure_diastolic&#92;&quot;:97,&#92;&quot;daily_steps_count&#92;&quot;:7899,&#92;&quot;weekly_work_hours&#92;&quot;:32.0,&#92;&quot;hobbies_count&#92;&quot;:1,&#92;&quot;social_events_per_month&#92;&quot;:6,&#92;&quot;books_read_per_year&#92;&quot;:9,&#92;&quot;volunteer_hours_per_month&#92;&quot;:2.1,&#92;&quot;travel_frequency_per_year&#92;&quot;:2,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:172.0,&#92;&quot;sessions_per_day&#92;&quot;:8,&#92;&quot;posts_created_per_week&#92;&quot;:3,&#92;&quot;reels_watched_per_day&#92;&quot;:174,&#92;&quot;stories_viewed_per_day&#92;&quot;:110,&#92;&quot;likes_given_per_day&#92;&quot;:113,&#92;&quot;comments_written_per_day&#92;&quot;:30,&#92;&quot;dms_sent_per_week&#92;&quot;:35,&#92;&quot;dms_received_per_week&#92;&quot;:28,&#92;&quot;ads_viewed_per_day&#92;&quot;:18,&#92;&quot;ads_clicked_per_day&#92;&quot;:6,&#92;&quot;time_on_feed_per_day&#92;&quot;:77,&#92;&quot;time_on_explore_per_day&#92;&quot;:20,&#92;&quot;time_on_messages_per_day&#92;&quot;:27,&#92;&quot;time_on_reels_per_day&#92;&quot;:47,&#92;&quot;followers_count&#92;&quot;:1916,&#92;&quot;following_count&#92;&quot;:3917,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.91,&#92;&quot;account_creation_year&#92;&quot;:2024,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-01-21&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:21.5},{&#92;&quot;user_id&#92;&quot;:1170880,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:37,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Urban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Low&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Full-time employed&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;Bachelor&#92;&#92;u2019s&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Divorced&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:9.5,&#92;&quot;sleep_hours_per_night&#92;&quot;:8.3,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Good&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Weekly&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:6,&#92;&quot;self_reported_happiness&#92;&quot;:3,&#92;&quot;body_mass_index&#92;&quot;:31.4,&#92;&quot;blood_pressure_systolic&#92;&quot;:105,&#92;&quot;blood_pressure_diastolic&#92;&quot;:60,&#92;&quot;daily_steps_count&#92;&quot;:8085,&#92;&quot;weekly_work_hours&#92;&quot;:35.4,&#92;&quot;hobbies_count&#92;&quot;:3,&#92;&quot;social_events_per_month&#92;&quot;:4,&#92;&quot;books_read_per_year&#92;&quot;:7,&#92;&quot;volunteer_hours_per_month&#92;&quot;:1.8,&#92;&quot;travel_frequency_per_year&#92;&quot;:4,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:164.0,&#92;&quot;sessions_per_day&#92;&quot;:6,&#92;&quot;posts_created_per_week&#92;&quot;:4,&#92;&quot;reels_watched_per_day&#92;&quot;:146,&#92;&quot;stories_viewed_per_day&#92;&quot;:102,&#92;&quot;likes_given_per_day&#92;&quot;:104,&#92;&quot;comments_written_per_day&#92;&quot;:26,&#92;&quot;dms_sent_per_week&#92;&quot;:25,&#92;&quot;dms_received_per_week&#92;&quot;:37,&#92;&quot;ads_viewed_per_day&#92;&quot;:18,&#92;&quot;ads_clicked_per_day&#92;&quot;:6,&#92;&quot;time_on_feed_per_day&#92;&quot;:95,&#92;&quot;time_on_explore_per_day&#92;&quot;:25,&#92;&quot;time_on_messages_per_day&#92;&quot;:32,&#92;&quot;time_on_reels_per_day&#92;&quot;:57,&#92;&quot;followers_count&#92;&quot;:2381,&#92;&quot;following_count&#92;&quot;:2694,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.51,&#92;&quot;account_creation_year&#92;&quot;:2018,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-09-23&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:27.3},{&#92;&quot;user_id&#92;&quot;:1545511,&#92;&quot;app_name&#92;&quot;:&#92;&quot;Instagram&#92;&quot;,&#92;&quot;age&#92;&quot;:53,&#92;&quot;gender&#92;&quot;:&#92;&quot;Male&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;urban_rural&#92;&quot;:&#92;&quot;Suburban&#92;&quot;,&#92;&quot;income_level&#92;&quot;:&#92;&quot;Upper-middle&#92;&quot;,&#92;&quot;employment_status&#92;&quot;:&#92;&quot;Full-time employed&#92;&quot;,&#92;&quot;education_level&#92;&quot;:&#92;&quot;Bachelor&#92;&#92;u2019s&#92;&quot;,&#92;&quot;relationship_status&#92;&quot;:&#92;&quot;Single&#92;&quot;,&#92;&quot;has_children&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;exercise_hours_per_week&#92;&quot;:9.2,&#92;&quot;sleep_hours_per_night&#92;&quot;:8.5,&#92;&quot;diet_quality&#92;&quot;:&#92;&quot;Average&#92;&quot;,&#92;&quot;smoking&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;alcohol_frequency&#92;&quot;:&#92;&quot;Weekly&#92;&quot;,&#92;&quot;perceived_stress_score&#92;&quot;:27,&#92;&quot;self_reported_happiness&#92;&quot;:2,&#92;&quot;body_mass_index&#92;&quot;:22.3,&#92;&quot;blood_pressure_systolic&#92;&quot;:143,&#92;&quot;blood_pressure_diastolic&#92;&quot;:96,&#92;&quot;daily_steps_count&#92;&quot;:8060,&#92;&quot;weekly_work_hours&#92;&quot;:34.0,&#92;&quot;hobbies_count&#92;&quot;:2,&#92;&quot;social_events_per_month&#92;&quot;:3,&#92;&quot;books_read_per_year&#92;&quot;:10,&#92;&quot;volunteer_hours_per_month&#92;&quot;:3.0,&#92;&quot;travel_frequency_per_year&#92;&quot;:1,&#92;&quot;daily_active_minutes_instagram&#92;&quot;:351.0,&#92;&quot;sessions_per_day&#92;&quot;:14,&#92;&quot;posts_created_per_week&#92;&quot;:4,&#92;&quot;reels_watched_per_day&#92;&quot;:279,&#92;&quot;stories_viewed_per_day&#92;&quot;:150,&#92;&quot;likes_given_per_day&#92;&quot;:191,&#92;&quot;comments_written_per_day&#92;&quot;:55,&#92;&quot;dms_sent_per_week&#92;&quot;:43,&#92;&quot;dms_received_per_week&#92;&quot;:51,&#92;&quot;ads_viewed_per_day&#92;&quot;:26,&#92;&quot;ads_clicked_per_day&#92;&quot;:8,&#92;&quot;time_on_feed_per_day&#92;&quot;:163,&#92;&quot;time_on_explore_per_day&#92;&quot;:60,&#92;&quot;time_on_messages_per_day&#92;&quot;:40,&#92;&quot;time_on_reels_per_day&#92;&quot;:121,&#92;&quot;followers_count&#92;&quot;:1816,&#92;&quot;following_count&#92;&quot;:3268,&#92;&quot;uses_premium_features&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;notification_response_rate&#92;&quot;:0.56,&#92;&quot;account_creation_year&#92;&quot;:2013,&#92;&quot;last_login_date&#92;&quot;:&#92;&quot;2025-03-12&#92;&quot;,&#92;&quot;average_session_length_minutes&#92;&quot;:25.1}]&quot;' data-total-rows='15' data-total-columns='58' data-max-columns='50' data-banner-text='&quot;Only showing 50 of 58 columns.&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;user_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;app_name&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;age&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;gender&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;country&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;urban_rural&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;income_level&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;employment_status&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;education_level&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;relationship_status&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;has_children&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;exercise_hours_per_week&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;sleep_hours_per_night&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;diet_quality&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;smoking&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;alcohol_frequency&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;perceived_stress_score&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;self_reported_happiness&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;body_mass_index&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;blood_pressure_systolic&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;blood_pressure_diastolic&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;daily_steps_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;weekly_work_hours&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;hobbies_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;social_events_per_month&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;books_read_per_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;volunteer_hours_per_month&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;travel_frequency_per_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;daily_active_minutes_instagram&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;sessions_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;posts_created_per_week&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;reels_watched_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;stories_viewed_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;likes_given_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;comments_written_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;dms_sent_per_week&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;dms_received_per_week&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;ads_viewed_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;ads_clicked_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;time_on_feed_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;time_on_explore_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;time_on_messages_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;time_on_reels_per_day&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;followers_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;following_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;uses_premium_features&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;notification_response_rate&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;account_creation_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;last_login_date&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;average_session_length_minutes&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;content_type_preference&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;preferred_content_theme&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;privacy_setting_level&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;two_factor_auth_enabled&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;biometric_login_used&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;linked_accounts_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;subscription_status&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;user_engagement_score&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "ce388d497bd43241e9a5ebf64420fcff",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "1938e2487850e3ca0034c584e2b0155e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Decisions based on y-data profiling:</strong></span>\n<ul>\n<li>Have to drop <em>user_id, app__name, last_login_date</em> features.</li>\n<li>Have to impute the missing values in the <em>perceived_stress_score, hobbies_count, social_events_per_month, travel_frequency_per_year, posts_created_per_week, ads_clicked_per_day, linked_accounts_count</em> features.</li>\n<li>Have to convert the categorical values into numerical values</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "17e63bd4748e09fde7b4d4dd06ebaa3b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "6da2bb5233b0bb7046cfad4132cda805",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "2a62a82b831e83571fcf24f49f903ba3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Dropping done!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "45e55dd90598aa0deb92cbd249a653fd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "b7d000f88c8ef95b482ac4e81a0d6c92",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "1b8a4de82ae1ee2fadbcc0a9e2617002",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-json-output data-json-data='[&quot;age&quot;,&quot;exercise_hours_per_week&quot;,&quot;sleep_hours_per_night&quot;,&quot;perceived_stress_score&quot;,&quot;body_mass_index&quot;,&quot;blood_pressure_systolic&quot;,&quot;blood_pressure_diastolic&quot;,&quot;daily_steps_count&quot;,&quot;weekly_work_hours&quot;,&quot;hobbies_count&quot;,&quot;social_events_per_month&quot;,&quot;books_read_per_year&quot;,&quot;volunteer_hours_per_month&quot;,&quot;travel_frequency_per_year&quot;,&quot;daily_active_minutes_instagram&quot;,&quot;sessions_per_day&quot;,&quot;posts_created_per_week&quot;,&quot;reels_watched_per_day&quot;,&quot;stories_viewed_per_day&quot;,&quot;likes_given_per_day&quot;,&quot;comments_written_per_day&quot;,&quot;dms_sent_per_week&quot;,&quot;dms_received_per_week&quot;,&quot;ads_viewed_per_day&quot;,&quot;ads_clicked_per_day&quot;,&quot;time_on_feed_per_day&quot;,&quot;time_on_explore_per_day&quot;,&quot;time_on_messages_per_day&quot;,&quot;time_on_reels_per_day&quot;,&quot;followers_count&quot;,&quot;following_count&quot;,&quot;notification_response_rate&quot;,&quot;account_creation_year&quot;,&quot;average_session_length_minutes&quot;,&quot;linked_accounts_count&quot;,&quot;user_engagement_score&quot;]' data-value-types='&quot;python&quot;'></marimo-json-output><marimo-json-output data-json-data='[&quot;gender&quot;,&quot;country&quot;,&quot;urban_rural&quot;,&quot;income_level&quot;,&quot;employment_status&quot;,&quot;education_level&quot;,&quot;relationship_status&quot;,&quot;has_children&quot;,&quot;diet_quality&quot;,&quot;smoking&quot;,&quot;alcohol_frequency&quot;,&quot;uses_premium_features&quot;,&quot;content_type_preference&quot;,&quot;preferred_content_theme&quot;,&quot;privacy_setting_level&quot;,&quot;two_factor_auth_enabled&quot;,&quot;biometric_login_used&quot;,&quot;subscription_status&quot;]' data-value-types='&quot;python&quot;'></marimo-json-output></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "e2cd64d2038d2ce564bb52029a41b032",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "dbf71663226833058188b39a7788756b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "314ff002d75da6d11ac0ba6c0b7905a9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Imputing the missing values for both numerical and categorical features</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "a7cfc1557658caa3b1b6b9798026bdfe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "f75edfa9c94fe2b9a5bd8ef093c885b0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "f7d52aead932fcfd90116510b4dd57a0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "09dd42de4c894da1b20a3f5156ed7d8d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "bd302f8a12466ca71632f4e881e2939a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "36af01b97e31395072836d760ea8018e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "3a423021ee25d202acdb96e2b01e1c5c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "70a617cc8d8edd0f208aa80ab1e605dd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "c605cf9728444ae0d59387c57b30a419",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "3e553c864f938cd9b9cca78b1a76247f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Model Training</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "53ed90f049e2461203770b9c923bf340",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "50a94859ee94319f552405a42c9d489a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Model Training and Evaluation</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "eaf83002a63c23e954a8387f3c39d7c2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:42:18,813 | INFO | crimson-nebula | Starting baseline model training (without PCA)...\n2026-01-25 07:42:18,814 | INFO | crimson-nebula | Training Linear Regression without PCA...\n2026-01-25 07:42:18,859 | INFO | crimson-nebula | Training Random Forest Regression without PCA...\n2026-01-25 07:42:19,063 | INFO | crimson-nebula | Training Gradient Boosting Regression without PCA...\n2026-01-25 07:42:19,167 | INFO | crimson-nebula | Training Voting Ensemble without PCA...\n2026-01-25 07:42:19,375 | INFO | crimson-nebula | Training Stacking Ensemble without PCA...\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "2fcb2b3294eb18c7693e3dfa0e77efd1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:42:18,781 | INFO | crimson-nebula | Logging is set up.\n2026-01-25 07:42:18,786 | INFO | root | crimson-nebula - Model Training Started.\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "9f447e7bab263851ea5916f071e9d57f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='pHFh-0' random-id='23c65964-6e09-a446-d8ad-ca9768eed505'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:2,&#92;&quot;Model&#92;&quot;:&#92;&quot;Gradient Boosting Regression&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.537707338271659,&#92;&quot;MAE&#92;&quot;:1.7252455828211037,&#92;&quot;RMSE&#92;&quot;:2.039763210658303},{&#92;&quot;&#92;&quot;:3,&#92;&quot;Model&#92;&quot;:&#92;&quot;Voting Ensemble&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.44224028333815246,&#92;&quot;MAE&#92;&quot;:2.12570178427427,&#92;&quot;RMSE&#92;&quot;:2.2404993751297115},{&#92;&quot;&#92;&quot;:1,&#92;&quot;Model&#92;&quot;:&#92;&quot;Random Forest Regression&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.2841694444444445,&#92;&quot;MAE&#92;&quot;:2.4175,&#92;&quot;RMSE&#92;&quot;:2.5382031045603894},{&#92;&quot;&#92;&quot;:0,&#92;&quot;Model&#92;&quot;:&#92;&quot;Linear Regression&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.01694102550827259,&#92;&quot;MAE&#92;&quot;:2.5017306366992207,&#92;&quot;RMSE&#92;&quot;:2.974479915955989},{&#92;&quot;&#92;&quot;:4,&#92;&quot;Model&#92;&quot;:&#92;&quot;Stacking Ensemble&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:-0.15810814221564118,&#92;&quot;MAE&#92;&quot;:3.0956788565001254,&#92;&quot;RMSE&#92;&quot;:3.2284629903315865}]&quot;' data-total-rows='5' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Model&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;R2 Score&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;MAE&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;RMSE&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "5af1b6f4e4b817a81818239ae0c606bb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Principal Component Analysis</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "8a7a60bc8541b5bf1684a597ef8d1182",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "c6ccc42b536b8b8a12a3cf6782e68114",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TXez",
+      "code_hash": "61d14fc3d899381b5e764e810b0b2232",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dNNg",
+      "code_hash": "02d57818729cf76d8c836b819e723190",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yCnT",
+      "code_hash": "442f904d86f9ea78b8593b8089c35d47",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Number of components needed for 95% variance: 9</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "wlCL",
+      "code_hash": "d9985a8f79845be02e2d1feeeb9ca4a4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kqZH",
+      "code_hash": "e9e9bad041614d00be664a5c8943f724",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:42:21,268 | INFO | crimson-nebula | Starting PCA-based model training with 9 components...\n2026-01-25 07:42:21,269 | INFO | crimson-nebula | Training Linear Regression with PCA...\n2026-01-25 07:42:21,307 | INFO | crimson-nebula | Linear Regression with PCA - R2: -0.0637, MAE: 2.6763, RMSE: 3.0941\n2026-01-25 07:42:21,308 | INFO | crimson-nebula | Training Random Forest Regression with PCA...\n2026-01-25 07:42:21,503 | INFO | crimson-nebula | Random Forest Regression with PCA - R2: 0.4741, MAE: 1.9075, RMSE: 2.1757\n2026-01-25 07:42:21,503 | INFO | crimson-nebula | Training Gradient Boosting Regression with PCA...\n2026-01-25 07:42:21,579 | INFO | crimson-nebula | Gradient Boosting Regression with PCA - R2: 0.7593, MAE: 1.2934, RMSE: 1.4719\n2026-01-25 07:42:21,580 | INFO | crimson-nebula | Training Voting Ensemble with PCA...\n2026-01-25 07:42:21,759 | INFO | crimson-nebula | Voting Ensemble with PCA - R2: 0.6617, MAE: 1.5207, RMSE: 1.7448\n2026-01-25 07:42:21,759 | INFO | crimson-nebula | Training Stacking Ensemble with PCA...\n2026-01-25 07:42:22,620 | INFO | crimson-nebula | Stacking Ensemble with PCA - R2: -3.8067, MAE: 6.1058, RMSE: 6.5773\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "wAgl",
+      "code_hash": "838c28b1dbf8a33de4d1f7467317aec2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='wAgl-0' random-id='c3b9d131-774f-60b3-c9d2-eefb480cbaf6'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:2,&#92;&quot;Model&#92;&quot;:&#92;&quot;Gradient Boosting Regression&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.759271968945683,&#92;&quot;MAE&#92;&quot;:1.2933995818801527,&#92;&quot;RMSE&#92;&quot;:1.4719212884827955},{&#92;&quot;&#92;&quot;:3,&#92;&quot;Model&#92;&quot;:&#92;&quot;Voting Ensemble&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.6617336678599051,&#92;&quot;MAE&#92;&quot;:1.5207300951927791,&#92;&quot;RMSE&#92;&quot;:1.7448200449504399},{&#92;&quot;&#92;&quot;:1,&#92;&quot;Model&#92;&quot;:&#92;&quot;Random Forest Regression&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.4740527777777779,&#92;&quot;MAE&#92;&quot;:1.9075,&#92;&quot;RMSE&#92;&quot;:2.1756665645268347},{&#92;&quot;&#92;&quot;:0,&#92;&quot;Model&#92;&quot;:&#92;&quot;Linear Regression&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:-0.06370786745737278,&#92;&quot;MAE&#92;&quot;:2.6762726574663,&#92;&quot;RMSE&#92;&quot;:3.094086425282325},{&#92;&quot;&#92;&quot;:4,&#92;&quot;Model&#92;&quot;:&#92;&quot;Stacking Ensemble&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:-3.8067170536477786,&#92;&quot;MAE&#92;&quot;:6.105831677680579,&#92;&quot;RMSE&#92;&quot;:6.5772679345477485}]&quot;' data-total-rows='5' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Model&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;R2 Score&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;MAE&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;RMSE&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "rEll",
+      "code_hash": "946202065eb0662c3aa2ccf898ca83ea",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dGlV",
+      "code_hash": "310fd7f4beb3ff97c07f9c54c0fb8e35",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SdmI",
+      "code_hash": "9e5041a9ef238f5f523b16c9c3b6cb08",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:42:22,737 | INFO | crimson-nebula | Starting GridSearchCV hyperparameter tuning...\n2026-01-25 07:42:22,738 | INFO | crimson-nebula | Skipping GridSearchCV for Linear Regression - no hyperparameters to tune\n2026-01-25 07:42:22,738 | INFO | root | \nTunning Random Forest Regression with GridSearchCV...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Fitting 5 folds for each of 108 candidates, totalling 540 fits\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:43:06,795 | INFO | root | \nTunning Gradient Boosting Regression with GridSearchCV...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Fitting 5 folds for each of 81 candidates, totalling 405 fits\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:43:26,358 | INFO | root | \nTunning Voting Ensemble with GridSearchCV...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Fitting 5 folds for each of 8 candidates, totalling 40 fits\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:43:29,696 | INFO | root | \nTunning Stacking Ensemble with GridSearchCV...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Fitting 5 folds for each of 12 candidates, totalling 60 fits\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:43:52,373 | INFO | crimson-nebula | GridSearchCV tuning completed successfully\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "lgWD",
+      "code_hash": "6d5da506b425d7a2d6ca6aa5b10f240f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lgWD-0' random-id='97032f2e-aabc-50bb-7b4e-2511d6aaea41'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;_model&#92;&quot;:&#92;&quot;Random Forest Regression&#92;&quot;,&#92;&quot;Best Params&#92;&quot;:&#92;&quot;{&#x27;model__max_depth&#x27;: 10, &#x27;model__min_samples_leaf&#x27;: 1, &#x27;model__min_samples_split&#x27;: 2, &#x27;model__n_estimators&#x27;: 200}&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.2996895833333333,&#92;&quot;MAE&#92;&quot;:2.38375,&#92;&quot;RMSE&#92;&quot;:2.510536546238672},{&#92;&quot;&#92;&quot;:2,&#92;&quot;_model&#92;&quot;:&#92;&quot;Voting Ensemble&#92;&quot;,&#92;&quot;Best Params&#92;&quot;:&#92;&quot;{&#x27;model__gb_reg__learning_rate&#x27;: 0.01, &#x27;model__gb_reg__n_estimators&#x27;: 50, &#x27;model__rf_reg__n_estimators&#x27;: 100}&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.16942697573693477,&#92;&quot;MAE&#92;&quot;:2.4769344425911477,&#92;&quot;RMSE&#92;&quot;:2.7340733747227026},{&#92;&quot;&#92;&quot;:1,&#92;&quot;_model&#92;&quot;:&#92;&quot;Gradient Boosting Regression&#92;&quot;,&#92;&quot;Best Params&#92;&quot;:&#92;&quot;{&#x27;model__learning_rate&#x27;: 0.2, &#x27;model__max_depth&#x27;: 3, &#x27;model__n_estimators&#x27;: 50, &#x27;model__subsample&#x27;: 0.8}&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.1543879636376222,&#92;&quot;MAE&#92;&quot;:2.295576174551014,&#92;&quot;RMSE&#92;&quot;:2.7587149775323656},{&#92;&quot;&#92;&quot;:3,&#92;&quot;_model&#92;&quot;:&#92;&quot;Stacking Ensemble&#92;&quot;,&#92;&quot;Best Params&#92;&quot;:&#92;&quot;{&#x27;model__final_estimator__alpha&#x27;: 10.0, &#x27;model__gb_reg__n_estimators&#x27;: 50, &#x27;model__rf_reg__n_estimators&#x27;: 50}&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:-0.04554860919705783,&#92;&quot;MAE&#92;&quot;:2.8166131650790733,&#92;&quot;RMSE&#92;&quot;:3.067562140001979}]&quot;' data-total-rows='4' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;_model&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;Best Params&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;R2 Score&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;MAE&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;RMSE&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yOPj",
+      "code_hash": "6e3f4351ee1711d7b63382423449d6d7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:43:52,436 | INFO | crimson-nebula | Starting RandomizedSearchCV hyperparameter tuning...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Skipping Linear Regression - no hyperparameters to tune\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:43:52,436 | INFO | root | \nTunning Random Forest Regression with RandomizedSearchCV...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Fitting 5 folds for each of 20 candidates, totalling 100 fits\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:44:02,758 | INFO | root | \nTunning Gradient Boosting Regression with RandomizedSearchCV...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Fitting 5 folds for each of 20 candidates, totalling 100 fits\nSkipping Voting Ensemble - no hyperparameters to tune\nSkipping Stacking Ensemble - no hyperparameters to tune\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:44:08,269 | INFO | crimson-nebula | RandomizedSearchCV tuning completed successfully\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "fwwy",
+      "code_hash": "9a18c79e590736fd2a6edc8c632752c8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='fwwy-0' random-id='081aa945-7426-4497-a34a-a2dc9291a3fb'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:1,&#92;&quot;Model&#92;&quot;:&#92;&quot;Gradient Boosting Regression&#92;&quot;,&#92;&quot;Best Params&#92;&quot;:&#92;&quot;{&#x27;model__subsample&#x27;: 0.8, &#x27;model__n_estimators&#x27;: 50, &#x27;model__min_samples_split&#x27;: 2, &#x27;model__max_depth&#x27;: 6, &#x27;model__learning_rate&#x27;: 0.1}&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.45086564044922506,&#92;&quot;MAE&#92;&quot;:2.133892853583106,&#92;&quot;RMSE&#92;&quot;:2.2231080126608727},{&#92;&quot;&#92;&quot;:0,&#92;&quot;Model&#92;&quot;:&#92;&quot;Random Forest Regression&#92;&quot;,&#92;&quot;Best Params&#92;&quot;:&#92;&quot;{&#x27;model__n_estimators&#x27;: 150, &#x27;model__min_samples_split&#x27;: 2, &#x27;model__min_samples_leaf&#x27;: 1, &#x27;model__max_features&#x27;: &#x27;sqrt&#x27;, &#x27;model__max_depth&#x27;: 15}&#92;&quot;,&#92;&quot;R2 Score&#92;&quot;:0.4100407407407407,&#92;&quot;MAE&#92;&quot;:2.1016666666666666,&#92;&quot;RMSE&#92;&quot;:2.304264163097047}]&quot;' data-total-rows='2' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Model&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;Best Params&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;R2 Score&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;MAE&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;RMSE&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LJZf",
+      "code_hash": "7082910262ca868b8b0376f06b56ec67",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Choose best model</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "urSm",
+      "code_hash": "962fc60de73070cdc990a2ff30526eda",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jxvo",
+      "code_hash": "3e30b26b1c859aaae1d7bffbe8d25e30",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "mWxS",
+      "code_hash": "9c2c71cbc6ffa4d2ac6ae1dd659d6a75",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CcZR",
+      "code_hash": "3ead30e8bd628a9cd8d9a8912051a43c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YWSi",
+      "code_hash": "18ed04f73d4bdad918f4e1b7bdd5ddf7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='YWSi-0' random-id='545cdce0-bc23-d00f-9dcd-0656ddfb7809'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;_model&#92;&quot;,&#92;&quot;6&#92;&quot;:NaN},{&#92;&quot;&#92;&quot;:&#92;&quot;Best Params&#92;&quot;,&#92;&quot;6&#92;&quot;:NaN},{&#92;&quot;&#92;&quot;:&#92;&quot;R2 Score&#92;&quot;,&#92;&quot;6&#92;&quot;:0.759271968945683},{&#92;&quot;&#92;&quot;:&#92;&quot;MAE&#92;&quot;,&#92;&quot;6&#92;&quot;:1.2933995818801527},{&#92;&quot;&#92;&quot;:&#92;&quot;RMSE&#92;&quot;,&#92;&quot;6&#92;&quot;:1.4719212884827955},{&#92;&quot;&#92;&quot;:&#92;&quot;Method&#92;&quot;,&#92;&quot;6&#92;&quot;:&#92;&quot;PCA&#92;&quot;},{&#92;&quot;&#92;&quot;:&#92;&quot;Model&#92;&quot;,&#92;&quot;6&#92;&quot;:&#92;&quot;Gradient Boosting Regression&#92;&quot;}]&quot;' data-total-rows='7' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;6&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/home/abdullahalazmi/Programming/crimson-nebula/.venv/lib64/python3.10/site-packages/marimo/_output/formatters/pandas_formatters.py:46: UserWarning: DataFrame has integer column names. This is not supported and can lead to bugs. Please use strings for column names.\n  return table(\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "zlud",
+      "code_hash": "8ec1bd76229324e2dd6a4e0eda83fda5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Save the model</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yfPX",
+      "code_hash": "47671d10707136c6eef4455bd3fe25c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "KLkq",
+      "code_hash": "9bdb6636e0af946c995663ff284d5f09",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:52:00,626 | INFO | crimson-nebula | Model saved successfully at src/models/best_model.pkl\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "eWLA",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "flSm",
+      "code_hash": "0fd22b1ad65c718af43b172282a50c95",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 07:52:57,944 | INFO | crimson-nebula | Retraining best model on full dataset...\n2026-01-25 08:23:09,063 | INFO | crimson-nebula | Model retrained successfully on full dataset with preprocessor\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "TZKN",
+      "code_hash": "bdd7c9b4619615f10dbc2b657a9aeaa2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2026-01-25 08:25:59,817 | INFO | crimson-nebula | Retrained model saved at src/models/crimson_nebula.pkl\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
